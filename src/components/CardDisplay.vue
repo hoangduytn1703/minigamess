@@ -103,14 +103,18 @@ button {
   gap: 10px;
   list-style-type: none;
   padding: 0;
-}
-
-.number-item {
+  min-height: 520px;
+  .number-item {
   background-color: #f5f5f5;
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: bold;
 }
+
+}
+
 
 .button-group {
   display: flex;
