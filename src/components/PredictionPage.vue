@@ -1,7 +1,7 @@
 <template>
   <div class="end-page">
     <div v-if="!isLove">
-      <h1>Con số mà bạn đã nghĩ tới là: <strong>{{ result }}</strong> đúng hông nè?</h1>
+      <h1>Con số mà bé đã nghĩ tới là: <strong>{{ result }}</strong> đúng hông nè?</h1>
       <button @click="iloveyou">Đúng hk? đúng thì click</button>
     </div>
     <div v-else class="ioveyou">
