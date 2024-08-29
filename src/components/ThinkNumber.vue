@@ -1,7 +1,8 @@
 <template>
     <div class="home-page">
-      <p>Bé hãy suy nghĩ và chọn từ 1 tới 200 (ko nói ra nhé)</p>
-      <button @click="next">Next</button>
+      <h1>Bé hãy suy nghĩ và chọn từ 1 tới 200 (ko nói ra nhé)</h1>
+      <h2>xong gòi thì click Next</h2>
+      <button @click="next">Click thì click</button>
     </div>
   </template>
   
@@ -10,7 +11,7 @@
   
   const router = useRouter()
   
-  function next() {
+  const next = () => {
     router.push('/show-cards')
   }
   </script>
