@@ -14,10 +14,27 @@
 <script lang="ts" setup>
 import { defineProps, ref } from 'vue'
 const props = defineProps<{ result: number }>()
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 const isLove = ref(false)
 const iloveyou = () => {
   isLove.value = true
+
+  setTimeout(() => {
+    if (confirm('chơi lại nhé bé?')) {
+      router.push('/')
+    }
+  }, 8000)
+}
+// if isLove.value = true, setitimeOut 10s later will back page home
+if (isLove.value) {
+  console.log('zzzzzzzz');
+  
+  setTimeout(() => {
+    router.push('/input-cards')
+  }, 1000)
 }
 </script>
 <style lang="scss" scoped>
