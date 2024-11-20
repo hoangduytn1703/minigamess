@@ -1,8 +1,7 @@
 # Project - dùng để tán gái :)))
+#  [Website](https://minigamess.vercel.app/)
 # Luật chơi: [Liên hệ](https://www.facebook.com/AkiraGosho1703/)
-```
-https://minigamess.vercel.app/
-```
+
 # my-magic-number-app
 
 ## Project setup
